@@ -1,0 +1,5 @@
+4 Secretary              9
+1 Director               5
+2 Manager1               15
+3 Buhgalter              10
+5 Sis_admin			     11
