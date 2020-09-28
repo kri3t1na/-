@@ -56,12 +56,12 @@ while True:
     # Ставим условие, чтобы количество элементов стека было меньше 100
     if a.size() == 100:
         # Выводим сообщение о том, что стек заполнен
-        print("The deque is full.")
+        print("The stack is full.")
 
     # Добавляем элемент в конец стека
     if c == "push":
         a.push(input())
-        print("The contents of the deque:", a.full())
+        print("The contents of the stack:", a.full())
 
     # Удаляем последний элемент стека
     if c == "pop":
@@ -70,7 +70,7 @@ while True:
             print("Error")
         else:
             a.pop()
-            print("The contents of the deque:", a.full())
+            print("The contents of the stack:", a.full())
 
 
     # Вывод последнего элемента стека
@@ -79,20 +79,20 @@ while True:
             print("Error")
         else:
             a.back()
-            print("Last deque item '", a.back(), "'")
+            print("Last stack item '", a.back(), "'")
 
     # Определяем размер стека
     if c == "size":
-        print("Size the deque", a.size())
+        print("Size the stack", a.size())
 
     # Проверка стека пуст ли он
     if c == "empty":
-        print("The deque is empty:", a.empty())
+        print("The stack is empty:", a.empty())
 
     # Очищаем стек
     if c == "clear":
         a.clear()
-        print("The contents of the deque:", a.full())
+        print("The contents of the stack:", a.full())
 
     # Завершаем программу
     if c == "exit":
