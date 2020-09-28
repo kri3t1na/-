@@ -53,13 +53,13 @@ print("Enter a command:")
 while True:
     # Ввод команды
     c = input()
-    # Ставим условие, чтобы количество элементов стека было меньше 100
-    if a.size() == 100:
-        # Выводим сообщение о том, что стек заполнен
-        print("The stack is full.")
 
     # Добавляем элемент в конец стека
     if c == "push":
+        # Ставим условие, чтобы количество элементов стека было меньше 100
+        if a.size() == 100:
+            # Выводим сообщение о том, что стек заполнен
+            print("The stack is full.")
         a.push(input())
         print("The contents of the stack:", a.full())
 
